@@ -65,7 +65,7 @@ header nav ul li > ul {
 
 header nav ul li:hover > ul {
     display: flex;
-    position: fixed;
+    position: absolute;
     flex-direction: column;
 }
 
@@ -177,6 +177,31 @@ main .body-rowitems ul h3 {
 
 main .body-rowitems ul p {
     line-height: 150%;
+}
+
+main .body-list h3 {
+    font-size: 20px;
+    margin: 10px 10px 0 10px;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+main .body-list p {
+    padding: 20px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+main .body-list ul li:hover {
+    background: #f8f8f8;
+}
+
+main .body-team ul {
+    display: block
+}
+
+main .body-team ul li:hover {
+    padding: 20px;
 }
 
 footer {
