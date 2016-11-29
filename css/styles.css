@@ -204,6 +204,76 @@ main .body-team ul li:hover {
     padding: 20px;
 }
 
+main .body-form form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .body-form form div {
+    padding: 0 0 20px 0;
+}
+
+main .body-form form input, main .body-form form textarea {
+    display: flex;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    margin: 10px 0 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+main .body-form form textarea {
+    width: 100%;
+    height: 200px;
+}
+
+main .body-form form .body-form-50 {
+    display: flex;
+    flex-direction: row;
+}
+
+main .body-form form .body-form-50 {
+    display: flex;
+    flex-direction: row;
+}
+
+main .body-form form .body-form-50 div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 100%;
+}
+
+main .body-form form .body-form-50 div:first-child {
+    padding: 0 40px 0 0;
+}
+
+main .body-form form .body-form-l50 {
+    display: flex;
+    width: 100px;
+    align-self: flex-end;
+}
+
+main .body-form form .body-form-l50 input[type=submit] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: white;
+    border: 1px solid #ccc;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+}
+
+main .body-form form .body-form-l50 input[type=submit]:hover {
+     cursor: pointer;
+}
+
+
 footer {
     background: repeating-linear-gradient(
       45deg,
