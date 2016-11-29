@@ -1,7 +1,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    background: #ccc;
+    background: #ddd;
 }
 
 .wrapper {
@@ -26,6 +26,7 @@ header h1 {
     font-size: 24px;
     display: flex;
     flex-grow: 2;
+    transition: background 0.5s ease;
 }
 
 header h1:hover {
@@ -48,9 +49,23 @@ header nav ul {
 header nav ul li {
     padding: 4px 0;
     font-size: 18px;
+    background: #34495e;
+    transition: background 0.5s ease;
 }
 
 header nav ul li:hover {
     background: #2c3e50;
 }
+
+header nav ul li > ul {
+    margin: 2px 0 0 0;
+    display: none;
+}
+
+header nav ul li:hover > ul {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+
 
