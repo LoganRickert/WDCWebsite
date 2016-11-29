@@ -81,9 +81,20 @@ article {
     
 }
 
+article h2 {
+    display: flex;
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 28px;
+    color: #444;
+
+    border-bottom: 2px solid #ccc;
+    padding: 0 0 15px 0;
+    margin: 0 0 15px 0;
+}
+
 .body-learnmore {
     background: #27ae60;
-    color: #fff;
     display: flex;
     align-items: center;
     border: 5px solid #27ae60;
@@ -98,10 +109,10 @@ article {
 }
 
 .body-learnmore h2 {
-    display: flex;
-    flex-grow: 1;
-    font-weight: bold;
-    font-size: 28px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
 }
 
 .body-learnmore a {
@@ -117,4 +128,38 @@ article {
 .body-learnmore a:hover {
     color: #eee;
     background: #555;
+}
+
+.body-rowitems ul {
+    padding: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+}
+
+.body-rowitems ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.body-rowitems ul img {
+    padding: 20px;
+    border-radius: 50%;
+    background: #444;
+    width: 50px;
+    height: 50px;
+}
+
+.body-rowitems ul h3 {
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.body-rowitems ul p {
+    line-height: 150%;
 }
