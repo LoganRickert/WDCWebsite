@@ -192,6 +192,10 @@ main .body-list p {
     text-align: justify;
 }
 
+main .body-list ul li {
+    transition: background 0.25s ease;
+}
+
 main .body-list ul li:hover {
     background: #f8f8f8;
 }
