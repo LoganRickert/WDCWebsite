@@ -1,7 +1,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    background: #ddd;
+    background: #eee;
 }
 
 .wrapper {
@@ -68,4 +68,53 @@ header nav ul li:hover > ul {
     flex-direction: column;
 }
 
+main {
+    margin: 0px auto;
+    flex: 1 100%;
+}
 
+article {
+    margin: 20px 40px;
+    padding: 40px;
+    flex: 1 100%;
+    background: #fff;
+    
+}
+
+.body-learnmore {
+    background: #27ae60;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 5px solid #27ae60;
+    
+    background: repeating-linear-gradient(
+      -45deg,
+      #27ae60,
+      #27ae60 8px,
+      #2ecc71 8px,
+      #2ecc71 25px
+    );
+}
+
+.body-learnmore h2 {
+    display: flex;
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.body-learnmore a {
+    font-size: 18px;
+    padding: 0 10px;
+    color: #555;
+    background: #eee;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.body-learnmore a:hover {
+    color: #eee;
+    background: #555;
+}
