@@ -18,9 +18,6 @@ header {
     flex: 1 100%;
     justify-content: space-between;
 	align-items: center;
-}
-
-header {
     background: #34495e;
     color: white;
 }
@@ -144,17 +141,17 @@ main .body-rowitems ul {
     padding: 0 0 10px 0;
     display: flex;
     justify-content: center;
-    /*flex-wrap: wrap;*/
 }
 
 main .body-rowitems ul li {
     display: flex;
     align-items: center;
+    text-align: justify;
     flex-direction: column;
     padding: 20px;
     flex-grow: 1;
     flex-basis: 0;
-    transition: border 0.25s ease, background 0.25s ease;
+    transition: border 0.25s ease, background 0.25s ease-in-out;
     border-bottom: 2px solid #fff;
 }
 
