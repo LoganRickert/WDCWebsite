@@ -40,32 +40,45 @@
     <div class="body-main">
         <section class="wrapper">
             <main>
-                <article class="body-learnmore">
-                    <h2>Start Learning Today!</h2>
-                    <a href="courses.html">View Courses!</a>
+                <article class="body-form">
+                    <h2>Contact Us!</h2>
+                    <form action="contact" method="post">
+                        <div class="body-form-50">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="body-form-50">
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                        <div class="body-form-100">
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" required>
+                        </div>
+                        <div class="body-form-100">
+                            <label for="message">Message:</label>
+                            <textarea type="text" id="message" name="message" required>
+                            </textarea>
+                        </div>
+                        <div class="body-form-l50">
+                            <input type="submit" id="submit" name="Submit" required>
+                        </div>
+                    </form>
                 </article>
-                <article class="body-rowitems">
-                    <h2>Build Your Skills</h2>
+                <article class="body-list" id="mission">
+                    <h2>Reach Out</h2>
                     <ul>
                         <li>
-                            <img src="img/nopicture.png">
-                            <h3>Responsive Design</h3>
-                            <p>In recent years, the number of mobile requests a 
-                            website receives has <b>skyrocketed</b>. This is 
-                            primarily due to the amazing success of smartphones 
-                            and tablets. Here at web design course, you'll learn 
-                            the basics of how to design websites that are 
-                            responsive orientated.</p>
+                            <h3>Email:</h3>
+                            <p>support@localhost</p>
                         </li>
                         <li>
-                            <img src="img/nopicture.png">
-                            <h3>Modern HTML5</h3>
-                            <p>There are an overloading number of websites out 
-                            on the internet that teach a basic introduction into 
-                            web design. The issue with a large portion of these 
-                            sites is that they are <b>way</b> out of date. Not 
-                            here! We teach the latest HTML5 and CSS3! You'll 
-                            even learn all about Flex box!</p>
+                            <h3>Phone:</h3>
+                            <p>+15555555555</p>
+                        </li>
+                        <li>
+                            <h3>Address:</h3>
+                            <p>123 Main St.</p>
                         </li>
                     </ul>
                 </article>
